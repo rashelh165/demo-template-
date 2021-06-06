@@ -1,0 +1,750 @@
+/*====================================
+    COMMON CSS
+======================================*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+
+/*====================================
+    HEADER SECTION
+======================================*/
+
+.header-section {
+    background: #fff;
+    padding: 20px 0;
+    max-width: 1140px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+
+/*logo area*/
+
+.logo {
+    width: auto;
+    margin-top: 10px;
+    float: left;
+}
+
+
+/*menu area*/
+
+.menu-list {
+    float: left;
+}
+
+.menu-list ul {
+    list-style: none;
+}
+
+.menu-list ul li {
+    margin-right: 30px;
+    display: inline-block;
+    position: relative;
+}
+
+.menu-list ul li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #5f5f5f;
+    font-size: 16px;
+}
+
+.menu-list li a:hover {
+    color: #f02e5e;
+}
+
+.menu-list li a.active {
+    color: #f02e5e;
+}
+
+
+/*search area*/
+
+.search-area {
+    padding: 10px 0;
+    float: right;
+}
+
+.search-area a {
+    display: inline-block;
+    color: rgb(73, 66, 66);
+    font-size: 16px;
+    text-decoration: none;
+    margin-left: 15px;
+    font-weight: 500;
+    border-radius: 25px;
+    padding: 5px 15px;
+}
+
+.search-area a:hover {
+    background: #6ad39c;
+    color: #ffff;
+    font-weight: 600;
+}
+
+.ac-btn i {
+    padding-right: 7px;
+    color: rgb(73, 66, 66);
+}
+
+.my-account .pro-btn {
+    background: #6ad39c;
+    color: #ffff;
+    font-weight: 600;
+}
+
+
+/*====================================
+    DESIGN SECTION
+======================================*/
+
+.design-section {
+    background: url(img/design-sec-bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 60px 0;
+    text-align: center;
+    margin: auto;
+}
+
+
+/*text area*/
+
+.row {
+    width: 400px;
+    height: 50px;
+    margin: auto;
+}
+
+.row img {
+    width: 30px;
+    height: auto;
+    float: left;
+    margin-top: 20px;
+}
+
+.row h5 {
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: italic;
+    color: #fff;
+}
+
+.text h1 {
+    margin-top: 0;
+    font-size: 36px;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+
+/*image area*/
+
+.cover-design {
+    margin-top: 30px;
+}
+
+.cover-design img {
+    width: 820px;
+    height: auto;
+}
+
+
+/*button area*/
+
+.sub-btn {
+    margin-top: 0;
+}
+
+.sub-btn a,
+.btn {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 25px;
+    margin-left: 10px;
+    border-radius: 35px;
+}
+
+.sub-btn a:hover {
+    background: -webkit-linear-gradient(180deg, rgba(255, 91, 207, 0.90), rgba(255, 149, 66, 0.90));
+}
+
+.check-btn {
+    background: -webkit-linear-gradient(180deg, rgba(255, 91, 207, 0.90), rgba(255, 149, 66, 0.90));
+}
+
+
+/*====================================
+    BUILD-WEBSITE SECTION
+======================================*/
+
+.build-section {
+    background: url(img/build-bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 80px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.build h2 {
+    color: #3f3030e5;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.build p {
+    color: #3f3030e5;
+    font-weight: 300;
+    font-size: 12px;
+    width: 240px;
+    float: left;
+    padding: 10px 0;
+}
+
+.build a {
+    color: #f02e5e;
+    font-weight: 600;
+    font-size: 12px;
+    text-decoration: none;
+    border: 1px solid #f02e5e;
+    padding: 7px 10px;
+    border-radius: 25px;
+}
+
+.see-btn {
+    margin-top: 23px;
+    padding: 20px 0;
+    float: right;
+}
+
+.build {
+    max-width: 700px;
+    max-height: 600px;
+    margin: auto;
+}
+
+.five {
+    width: 320px;
+    height: auto;
+}
+
+.works {
+    width: 300px;
+    height: auto;
+}
+
+
+/*stars area*/
+
+.stars {
+    max-width: 700px;
+    max-height: auto;
+    margin: auto;
+    position: relative;
+}
+
+.stars-image {
+    margin-top: 30px;
+    width: 700px;
+}
+
+.stars a {
+    color: #3a2eab;
+    text-decoration: none;
+    font-size: 11px;
+}
+
+.stars .read-btn {
+    position: absolute;
+    width: 30%;
+    transform: translate(-50%, -50%);
+    bottom: 7%;
+    left: 27%;
+}
+
+.stars .real-btn {
+    position: absolute;
+    width: 30%;
+    transform: translate(-50%, -50%);
+    color: #f02e5e;
+    bottom: 7%;
+    left: 62%;
+}
+
+.stars .reaf-btn {
+    position: absolute;
+    width: 30%;
+    transform: translate(-50%, -50%);
+    color: #ff9446;
+    bottom: 7%;
+    left: 93%;
+}
+
+
+/*====================================
+    ENHANCE SECTION
+======================================*/
+
+.enhance-section {
+    background: url(img/enhence-bg.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.assets {
+    max-width: 700px;
+    max-height: 600px;
+    margin: auto;
+}
+
+.assets h2 {
+    padding-top: 40px;
+    color: #fff;
+    font-size: 45px;
+    font-weight: 100;
+}
+
+.assets h4 {
+    width: 300px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.assets p {
+    width: 260px;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 300;
+}
+
+.card-image {
+    width: 350px;
+    height: 500px;
+}
+
+
+/*====================================
+    UNIQUE SECTION
+======================================*/
+
+.unique-section {
+    background: url(img/unique.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    padding: 60px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.row1 {
+    width: 400px;
+    text-align: center;
+    margin: auto;
+}
+
+.made {
+    width: 400px;
+}
+
+.last-img {
+    width: 250px;
+}
+
+.row1 h3 {
+    margin-bottom: 0;
+    color: #5f5f5f;
+    font-size: 23px;
+}
+
+.row1 h2 {
+    margin-top: 15px;
+    color: #5f5f5f;
+    font-size: 43px;
+    font-weight: 300;
+}
+
+.content-sect {
+    max-width: 700px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.shuff-btn {
+    font-weight: 700;
+    font-size: 12px;
+    color: #3a2eab;
+}
+
+.content-sect p {
+    font-size: 11px;
+    width: 230px;
+}
+
+.view-btn {
+    font-weight: 700;
+    font-size: 12px;
+    color: #f02e5e;
+}
+
+.shuffle-image {
+    width: 300px;
+}
+
+.content-sect .col:nth-child(3) {
+    margin-left: 0;
+}
+
+.content-sect .col:nth-child(5) {
+    margin-left: 0;
+}
+
+.content-sect .col:nth-child(1),
+.content-sect .col:nth-child(2),
+.content-sect .col:nth-child(3),
+.content-sect .col:nth-child(4),
+.content-sect .col:nth-child(5),
+.content-sect .col:nth-child(6) {
+    margin-top: 30px;
+}
+
+
+/*====================================
+    CUSTOMIZE SECTION
+======================================*/
+
+.customize-section {
+    background: url(img/customize-bg.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    padding: 60px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.element {
+    max-width: 700px;
+    margin: auto;
+}
+
+.just h3 {
+    background: -webkit-linear-gradient(120deg, #ed6999, #3b2eab);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: 300px;
+    font-size: 25px;
+}
+
+.just p {
+    margin-top: 30px;
+    font-size: 10px;
+    width: 320px;
+}
+
+
+/*====================================
+    FEATURE SECTION
+======================================*/
+
+.feature-section {
+    background: url(img/button-bg.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    margin: auto;
+    overflow: hidden;
+}
+
+.rich {
+    width: 700px;
+    margin: auto;
+}
+
+.rich .along {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+
+.shuffle-image1 {
+    width: 200px;
+    padding-top: 60px;
+}
+
+.feature-section .just h2 {
+    color: #000;
+    width: 280px;
+}
+
+.rich .just p {
+    margin: 30px 0;
+    font-size: 10px;
+    width: 320px;
+    color: #000;
+}
+
+.rich .see {
+    margin-top: 40px;
+    text-decoration: none;
+    padding: 9px 15px;
+    border: 1px solid #f02e5e;
+    border-radius: 30px;
+}
+
+.rich .free {
+    padding-bottom: 60px;
+}
+
+.feature-section .button-img {
+    width: 450px;
+    height: 450px;
+    position: absolute;
+    right: 0;
+}
+
+
+/*====================================
+    MONEY-BACK SECTION
+======================================*/
+
+.money-section {
+    background: #f5f5f5;
+    margin: auto;
+    overflow: hidden;
+    padding: 40px 0;
+}
+
+.back {
+    width: 570px;
+    margin: auto;
+}
+
+.back .shuffle-image1 {
+    width: 230px;
+    padding: 20px;
+}
+
+.back h3 {
+    margin-bottom: 10px;
+}
+
+.back h2 {
+    margin: 0;
+    padding-top: 0;
+    line-height: 1;
+    font-size: 50px;
+    color: #a3a3a3;
+    font-weight: 300;
+}
+
+.back p {
+    font-size: 11px;
+    width: 330px;
+}
+
+
+/*====================================
+    STARTED-NOW SECTION
+======================================*/
+
+.started-section {
+    background: -webkit-linear-gradient(180deg, rgba(27, 8, 196, 0.8), rgba(221, 17, 92, 0.8)), url(img/getstarted-bg.PNG);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: auto;
+    overflow: hidden;
+    padding: 60px 0;
+}
+
+.started {
+    text-align: center;
+}
+
+.started h2 {
+    font-size: 40px;
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.started p {
+    font-size: 10px;
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 35px;
+}
+
+.started-section .btn {
+    width: 330px;
+    margin: auto;
+}
+
+.started-section a {
+    background: none;
+    padding: 5px 25px;
+}
+
+.started-section a:hover {
+    background: #6ad39c;
+}
+
+.started-section .check-btn {
+    background: #6ad39c;
+    padding: 5px 25px;
+}
+
+
+/*====================================
+    FOOTER SECTION
+======================================*/
+
+.footer-section {
+    background: #2a323d;
+    margin: auto;
+    overflow: hidden;
+    padding-top: 50px;
+    color: #fff;
+}
+
+.company {
+    padding-bottom: 30px;
+}
+
+.footer-content {
+    max-width: 700px;
+    margin: auto;
+}
+
+.footer-content h3 {
+    font-size: 18px;
+}
+
+.company-list ul {
+    padding-left: 0;
+}
+
+.company-list ul li {
+    list-style: none;
+}
+
+.company-list ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+
+/*icons area*/
+
+.icons-list ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.icons-list ul li {
+    margin-right: 0;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.icons-list ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.icons-list .icons ul li a {
+    width: 20px;
+    height: 15px;
+    display: inline-block;
+    color: #fff;
+}
+
+.form {
+    width: 280px;
+}
+
+.form input[type="email"],
+.form input[type="submit"] {
+    display: inline-block;
+}
+
+.form input[type="email"] {
+    background: #212935;
+    width: 180px;
+    border: none;
+    padding: 10px 13px;
+    border-radius: 25px;
+    color: #fff;
+}
+
+.subscribe {
+    background: linear-gradient(#f9619f, #3a2eab);
+    width: 110px;
+    border: none;
+    padding: 10px 13px;
+    border-radius: 25px;
+    color: #fff;
+}
+
+.subscribe:hover {
+    cursor: pointer;
+}
+
+
+/* logo parts */
+
+.footer-second {
+    border-top: 2px solid #313944;
+    overflow: hidden;
+    width: 100%;
+    margin: auto;
+}
+
+.footer-second .footer-logo {
+    width: 700px;
+    margin: auto;
+}
+
+.footer-logo .logo {
+    width: 130px;
+}
+
+.footer-logo img {
+    margin-top: 20px;
+}
+
+.footer-logo h5 {
+    width: 165px;
+    font-size: 11px;
+    float: right;
+    padding: 0;
+}
+
+.footer-logo h5 i {
+    color: #ff64a0;
+}
